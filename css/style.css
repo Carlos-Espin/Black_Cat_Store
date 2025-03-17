@@ -1,24 +1,32 @@
 body{
     background-color: #2e2f33;
+    margin: 0;
+    font-family: Arial, sans-serif;
 }
 
 /* Inicio Menu */
 
+#menu {
+    background: #424348;
+    padding: 20px 40px;
+    text-align: center;
+    height: 50px;
+}
+
 
 #menu ul {
     font-size: 18px; 
-    padding:0px;
-    margin:0px;
+    padding: 0px;
+    margin: 0px;
     list-style:none;
-    text-align: center;
+    margin-top: -30px;
 }
 
-  #menu ul li { 
+#menu ul li { 
     display: inline;
     padding-inline: 20px;
     margin: -5px;
     border-style: none;
-    background-color: white;
 }
 
 #menu ul a {
@@ -26,5 +34,11 @@ body{
     color: black;
 }
 
+#logo {
+    width: 150px;
+    display: flex;
+    margin-left: 100px;
+    margin-top: 5px;
+}
 
 /* Fim Menu */
