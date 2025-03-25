@@ -7,22 +7,23 @@ body{
 /* Inicio Menu */
 
 #menu {
-    background: #424348;
+    background: #170128;
     padding: 20px 40px;
     text-align: center;
     height: 50px;
+    position: relative;
 }
 
 
 #menu ul {
     font-size: 18px; 
-    padding: 0px;
-    margin: 0px;
     list-style:none;
-    margin-top: -30px;
+    display: flex;
+    justify-content: center;
 }
 
 #menu ul li { 
+    color: white;
     display: inline;
     padding-inline: 20px;
     margin: -5px;
@@ -37,8 +38,18 @@ body{
 #logo {
     width: 150px;
     display: flex;
-    margin-left: 100px;
-    margin-top: 5px;
+    position: absolute;
+    left: 100px;
+    top: 25%;
+}
+
+#sacola{
+    width: 45px;
+    display: flex;
+    float: right;
+    position: absolute;
+    top: 25%;
+    left: 90%;
 }
 
 /* Fim Menu */
